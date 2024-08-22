@@ -12,7 +12,6 @@ export default {
 
 <style lang="scss" scoped>
  .landing {
-   width: 100dvw;
-   height: 100dvh;
+   
  }
 </style>

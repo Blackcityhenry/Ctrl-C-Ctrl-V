@@ -1,16 +1,17 @@
 <script>
-import Landing from './pages/Landing.vue';
+import NavSidebar from './components/NavSidebar.vue'
 
 export default {
   components: {
-    Landing
+    NavSidebar
   }
 }
 </script>
 
 <template>
-  <Landing />
+  <NavSidebar />
+  <RouterView />
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>
